@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(220, 227, 230);
+}
+
+#heading{
+    background-color:black;
+    padding:20px 20px 20px 20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+#nav{
+    background-color: rgb(170, 26, 26);
+    margin-top: -0.2cm;
+}
+.nav-link{
+    color:white;
+    font-size: large;
+    
+}
+
+#head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    text-align: center;
+}
+.fa-envelope{
+    color:maroon;
+}
+.fa-whatsapp{
+    color:#075e54;
+}
+.fa-print{
+    color: black;
+}
+.fa-twitter{
+    color:#00acee;
+}
+.fa-facebook-official{
+    color:#3b5998 ;
+}
+.fa-reddit-alien{
+    color:#ff5700;
+}
+#content{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    word-spacing: 2px;
+}
+a:hover{
+    color: maroon;
+}
+pre{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    word-spacing: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width:1000px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14cm;
+}
+
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link1 {
+    color:white;
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+  
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+
+  li{
+    color:white;
+  }
